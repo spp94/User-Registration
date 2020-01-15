@@ -147,7 +147,7 @@ public class UserRegistration extends JFrame {
                 }
 
                 try {
-                    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/swing_demo", "root", "Archana*130594");
+                    Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/swing_demo", "root", "root");
 
                     String query = "INSERT INTO account values('" + firstName + "','" + lastName + "','" + userName + "','" +
                         password + "','" + emailId + "','" + mobileNumber + "')";
